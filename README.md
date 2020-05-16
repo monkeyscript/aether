@@ -1,5 +1,5 @@
 # Aether
-Yet another CSS framework.
+Yet another design system.
 
 #### Todo
 - Docs
