@@ -1,5 +1,5 @@
 .btn {
     padding: .4rem .8rem;
     border-radius: .25rem;
-    transition: color .2s ease-in-out, background-color .2s ease-in-out
+    transition: ease .2s;
 }
