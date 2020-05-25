@@ -1,5 +1,8 @@
+/* Components */
+
 .btn {
     padding: .4rem .8rem;
     border-radius: .25rem;
     transition: ease .2s;
 }
+

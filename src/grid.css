@@ -1,3 +1,5 @@
+/* Grid */
+
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -485,3 +487,4 @@
         max-width: 100%
     }
 }
+
