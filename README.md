@@ -1,16 +1,10 @@
 # Aether
 Yet another design system.
 
-#### Utilities
-- Borders
-- Components (Button)
-- Content (Image)
+#### Features
 - Grid
-- Layout (Container)
 - Margin
 - Padding
-- Shadow
-
-#### Todo
-- Docs
-- Default font
+- Borders
+- Components (Button)
+- Layout (Container, Responsive Image)
