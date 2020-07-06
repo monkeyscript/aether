@@ -4,51 +4,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aether</title>
     
     <link rel="stylesheet" href="./aether.css">
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <!-- For dev -->
     <link rel="stylesheet" href="../src/border.css">
     <link rel="stylesheet" href="../src/components.css">
-    <link rel="stylesheet" href="../src/content.css">
     <link rel="stylesheet" href="../src/grid.css">
     <link rel="stylesheet" href="../src/layout.css">
     <link rel="stylesheet" href="../src/margin.css">
     <link rel="stylesheet" href="../src/padding.css">
-    <link rel="stylesheet" href="../src/shadow.css">
 </head>
 
 <body>
-    <div class="navbar py-3 shadow-sm">
+    <div class="navbar py-3">
         <div class="container">
-            <h2 class="m-0">Aether</h2>
+            <h2 class="m-0">
+                <span>Aether</span>
+                <a title="Github" target="_blank" href="https://github.com/monkeyscript/aether">
+                    <i class="fa fa-github"></i>
+                </a>
+            </h2>
         </div>
     </div>
 
-    <div class="content">
+    <div class="content my-5">
+        <div class="container" id="grid">
+            <h4>Grid</h4>
+            <div class="row">
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-hl-1 p-3">col-1</div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-2">
+                    <div class="bg-hl-1 p-3">col-2</div>
+                </div>
+                <div class="col-2">
+                    <div class="bg-hl-1 p-3">col-2</div>
+                </div>
+                <div class="col-2">
+                    <div class="bg-hl-1 p-3">col-2</div>
+                </div>
+                <div class="col-2">
+                    <div class="bg-hl-1 p-3">col-2</div>
+                </div>
+                <div class="col-2">
+                    <div class="bg-hl-1 p-3">col-2</div>
+                </div>
+                <div class="col-2">
+                    <div class="bg-hl-1 p-3">col-2</div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-3">
+                    <div class="bg-hl-1 p-3">col-3</div>
+                </div>
+                <div class="col-3">
+                    <div class="bg-hl-1 p-3">col-3</div>
+                </div>
+                <div class="col-3">
+                    <div class="bg-hl-1 p-3">col-3</div>
+                </div>
+                <div class="col-3">
+                    <div class="bg-hl-1 p-3">col-3</div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-4">
+                    <div class="bg-hl-1 p-3">col-4</div>
+                </div>
+                <div class="col-4">
+                    <div class="bg-hl-1 p-3">col-4</div>
+                </div>
+                <div class="col-4">
+                    <div class="bg-hl-1 p-3">col-4</div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-6">
+                    <div class="bg-hl-1 p-3">col-6</div>
+                </div>
+                <div class="col-6">
+                    <div class="bg-hl-1 p-3">col-6</div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <div class="bg-hl-1 p-3">col-12</div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="bg-hl-1 p-3">col</div>
+                </div>
+                <div class="col">
+                    <div class="bg-hl-1 p-3">col</div>
+                </div>
+                <div class="col">
+                    <div class="bg-hl-1 p-3">col</div>
+                </div>
+                <div class="col">
+                    <div class="bg-hl-1 p-3">col</div>
+                </div>
+                <div class="col">
+                    <div class="bg-hl-1 p-3">col</div>
+                </div>
+            </div>
+            <br>
+            <div>Utilities : col-sm-*, col-md-*, col-lg-*, col-xl-*</div>
+            <hr class="my-5">
+        </div>
+        <div class="container">
+            <h4>Margin</h4>
+            <code class="bg-hl-2 mr-3">
+                <code class="bg-hl-1 p-3 m-0">m-0</code>
+            </code>
+            <code class="bg-hl-2 mr-3">
+                <code class="bg-hl-1 p-3 m-1">m-1</code>
+            </code>
+            <code class="bg-hl-2 mr-3">
+                <code class="bg-hl-1 p-3 m-2">m-2</code>
+            </code>
+            <code class="bg-hl-2 mr-3">
+                <code class="bg-hl-1 p-3 m-3">m-3</code>
+            </code>
+            <code class="bg-hl-2 mr-3">
+                <code class="bg-hl-1 p-3 m-4">m-4</code>
+            </code>
+            <code class="bg-hl-2 mr-3">
+                <code class="bg-hl-1 p-3 m-5">m-5</code>
+            </code>
+            <br><br>
+            <div>Utilities : mx-*, my-*, mt-*, mr-*, mb-*, ml-*</div>
+            <hr class="my-5">
+        </div>
+        <div class="container">
+            <h4>Padding</h4>
+            <code class="bg-hl-1 p-0 mr-3">p-0</code>
+            <code class="bg-hl-1 p-1 mr-3">p-1</code>
+            <code class="bg-hl-1 p-2 mr-3">p-2</code>
+            <code class="bg-hl-1 p-3 mr-3">p-3</code>
+            <code class="bg-hl-1 p-4 mr-3">p-4</code>
+            <code class="bg-hl-1 p-5 mr-3">p-5</code>
+            <br><br>
+            <div>Utilities : px-*, py-*, pt-*, pr-*, pb-*, pl-*</div>
+            <hr class="my-5">
+        </div>
         <div class="container">
             <h4>Borders</h4>
-            <hr>
-            <code>rounded</code>
-            <code>rounded-top</code>
-            <code>rounded-right</code>
-            <code>rounded-bottom</code>
-            <code>rounded-left</code>
+            <code class="bg-hl-1 p-3 mr-3 rounded">rounded</code>
+            <code class="bg-hl-1 p-3 mr-3 rounded-top-right">rounded-top-right</code>
+            <code class="bg-hl-1 p-3 mr-3 rounded-top-left">rounded-top-left</code>
+            <code class="bg-hl-1 p-3 mr-3 rounded-bottom-right">rounded-bottom-right</code>
+            <code class="bg-hl-1 p-3 mr-3 rounded-bottom-left">rounded-bottom-left</code>
+            <hr class="my-5">
         </div>
         <div class="container">
             <h4>Components</h4>
-            <hr>
-            <code>btn</code>
+            <button class="bg-hl-1 btn">btn</button>
+            <hr class="my-5">
         </div>
-        <div class="container">
-            <h4>Content</h4>
-            <hr>
-            <code>img</code>
+        <div class="my-5 text-center">
+            Riggity riggity rekt son!
         </div>
     </div>
 

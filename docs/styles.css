@@ -2,7 +2,69 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+body {
+    background-color: #38385b;
+    color: #dcdcef;
+}
+
 .navbar {
-    background-color: #3c3c3c;
-    color: #f7f7f7;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background: linear-gradient(145deg, #323252, #3c3c61);
+    box-shadow:  20px 20px 60px #282842, -20px -20px 60px #484874;
+}
+
+.navbar h2 {
+    display: flex;
+}
+
+.navbar span {
+    flex-grow: 1;
+}
+
+.bg-hl-1 {
+    color: #dcdcef;
+    background-color: #63638a;
+    box-shadow:  20px 20px 60px #282842, -20px -20px 60px #484874;
+}
+
+.bg-hl-2 {
+    background-color: lightslategray;
+    box-shadow:  20px 20px 60px #282842, -20px -20px 60px #484874;
+}
+
+.bg-hl-2 .bg-hl-1 {
+    box-shadow: none;
+}
+
+code {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+hr {
+    opacity: .2;
+}
+
+a {
+    color: #63638a;
+    transition: ease .2s;
+}
+
+a:hover {
+    color: #dcdcef;
+}
+
+#grid {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    #grid {
+        display: block;
+    }
 }
