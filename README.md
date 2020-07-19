@@ -8,8 +8,3 @@ Yet another design system.
 - Borders
 - Components (Button)
 - Layout (Container, Responsive Image)
-
-#### Features
-- Add breakpoint details
-- Add container details
-- Add grid details
